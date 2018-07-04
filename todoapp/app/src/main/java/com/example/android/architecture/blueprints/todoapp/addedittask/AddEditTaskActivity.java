@@ -100,7 +100,7 @@ public class AddEditTaskActivity extends AppCompatActivity {
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
-        // Save the state so that next time we know if we need to refresh data.
+        // Save the state so thath next time we know if we need to refresh data.
         outState.putBoolean(SHOULD_LOAD_DATA_FROM_REPO_KEY, mAddEditTaskPresenter.isDataMissing());
         super.onSaveInstanceState(outState);
     }
